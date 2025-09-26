@@ -1,2 +1,58 @@
 .env
 /config
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment and dependency files
+.env
+.env.*
+*.env
+!/.env.example
+
+# Logs
+logs/
+*.log
+
+# Test, split, and processed data (if/when added)
+data/processed/
+data/splits/
+data/raw/
+data/inference/
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+.cache/
+.coverage
+
+# VSCode and other IDE config
+.vscode/
+.idea/
+/data
+
+# Mlflow and WandB tracking files
+mlruns/
+wandb/
+
+
+# Hydra config files
+outputs/
